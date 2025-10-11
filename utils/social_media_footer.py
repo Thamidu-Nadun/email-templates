@@ -32,6 +32,7 @@ def generateSocialMediaFooter():
     This mainly uses to generate the social media footer for the email templates with social media icons in their github repository.
     
     Goal: Get the images from their repository in the path: assets/img/{social_media}.jpg
+    
     Returns: str: An HTML string representing the social media footer.
     
     Author: Thamidu Nadun
