@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monthly Blog Update - Mozilla Campus Club</title>
+    <style>
+        body,
+        table,
+        td,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+            border: 0;
+            outline: none;
+            text-decoration: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        @media screen and (max-width: 620px) {
+            table[class="container"] {
+                width: 95% !important;
+            }
+
+            td[class="body-padding"] {
+                padding: 15px !important;
+            }
+
+            h1 {
+                font-size: 20px !important;
+            }
+
+            h2 {
+                font-size: 18px !important;
+            }
+
+            a[class="button"] {
+                width: 100% !important;
+                padding: 10px 0 !important;
+                font-size: 16px !important;
+            }
+
+            td[class="blog-item"] {
+                padding: 15px !important;
+            }
+        }
+    </style>
+</head>
+
+<body style="
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      font-family: Arial, Helvetica, sans-serif;
+    ">
+    <!-- Main Container -->
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f5f5f5">
+        <tr>
+            <td align="center" style="padding: 30px 15px">
+                <!-- Email content -->
+                <table class="container" width="600" border="0" cellspacing="0" cellpadding="0" style="
+              max-width: 600px;
+              background-color: #ffffff;
+              border-radius: 8px;
+              overflow: hidden;
+            ">
+                    <!-- Header -->
+                    <tr>
+                        <td style="
+                  background: #ff6600;
+                  padding: 1rem;
+                  text-align: center;
+                  border-radius: 8px 8px 0 0;
+                ">
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td align="center">
+                                        <div style="
+                          width: 5rem;
+                          height: 5rem;
+                          background-color: #ffffff;
+                          border-radius: 50%;
+                          text-align: center;
+                          line-height: 5rem;
+                          margin: 0 auto;
+                        ">
+                                            <span style="font-size: 40px">🦊</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <h1 style="
+                          margin-top: 0.5em;
+                          color: #ffffff;
+                          font-size: 32px;
+                          font-weight: 700;
+                          letter-spacing: -0.5px;
+                        ">
+                                            Monthly Blog Update
+                                        </h1>
+                                        <p style="
+                          color: #ffffff;
+                          font-size: 14px;
+                          margin: 5px 0 0 0;
+                          opacity: 0.9;
+                        ">
+                                            {{ month }} {{ year }}
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Body -->
+                    <tr>
+                        <td class="body-padding" style="padding: 30px 30px 20px 30px">
+                            <h3 style="color: #333333; margin: 0 0 15px 0">
+                                Hello {{ first_name }},
+                            </h3>
+                            <p style="
+                    font-size: 14px;
+                    color: #555555;
+                    line-height: 1.5;
+                    margin: 0 0 20px 0;
+                    text-align: center;
+                  ">
+                                We are excited to bring you the latest updates and articles
+                                from the Mozilla Campus Club community. Here's a roundup of
+                                our recent blog posts:
+                            </p>
+
+                            <!-- Blog Posts -->
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="
+                    border: 1px solid #e0e0e0;
+                    border-radius: 8px;
+                    margin-bottom: 20px;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                  ">
+                                <tr>
+                                    <td class="blog-item" style="padding: 20px">
+                                        <h4 style="
+                          color: #333333;
+                          margin: 0 0 10px 0;
+                          font-weight: 600;
+                        ">
+                                            Introduction to WebAssembly
+                                        </h4>
+                                        <p style="
+                          font-size: 13px;
+                          color: #777777;
+                          margin: 0 0 15px 0;
+                        ">
+                                            2025-09-12 | by thamidu-nadun
+                                        </p>
+                                        <p style="
+                          font-size: 12px;
+                          color: #555555;
+                          line-height: 1.5;
+                          margin: 0 0 15px 0;
+                        ">
+                                            WebAssembly (Wasm) is a binary instruction format for a
+                                            stack-based virtual machine. It is designed to be a
+                                            portable compilation target for programming languages,
+                                            enabling deployment on the web for client and server
+                                            applications. In this blog post, we will explore the
+                                            basics of WebAssembly, its benefits, and how to get
+                                            started with it.
+                                        </p>
+                                        <a href="https://www.sliitmozilla.org/" target="_blank" style="
+                          display: inline-block;
+                          padding: 6px 10px;
+                          color: #ffffff;
+                          background-color: #ff6600;
+                          text-decoration: none;
+                          font-size: 10px;
+                          font-weight: 600;
+                          border-radius: 4px;
+                        ">Read More</a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <p style="
+                    font-size: 12px;
+                    color: #555555;
+                    line-height: 1.5;
+                    margin: 20px 0 0 0;
+                  ">
+                                Stay tuned for more updates and exciting content from the
+                                Mozilla Campus Club. If you have any questions or suggestions,
+                                feel free to reach out to us.
+                            </p>
+
+                            <!-- social media links -->
+                            <table style="margin-top: 4rem" cellpadding="0" cellspacing="0" border="0" align="center">
+                                <tr>
+                                    <td style="
+                        padding-top: 10px;
+                        outline: none;
+                        text-decoration: none;
+                      ">
+                                        <a href="https://www.facebook.com/sliitmozilla">
+                                            <img src="https://i.ibb.co/S7WDhF7h/facebook.jpg" alt="facebook" width="15"
+                                                height="15" style="color: #ff6600; padding: 0 4px" />
+                                        </a>
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/sliitmozilla">
+                                            <img src="https://i.ibb.co/SXc15xB5/instagram.jpg" alt="instagram"
+                                                width="15" height="15" style="color: #ff6600; padding: 0 4px" />
+                                        </a>
+                                        <!-- github -->
+                                        <a href="https://github.com/Mozilla-Campus-Club-of-SLIIT">
+                                            <img src="https://i.ibb.co/N6QBhmvV/github.jpg" alt="github" width="15"
+                                                height="15" style="color: #ff6600; padding: 0 4px" />
+                                        </a>
+                                        <!-- youtube -->
+                                        <a href="https://www.youtube.com/@sliitmozilla">
+                                            <img src="https://i.ibb.co/DHCYL5GD/youtube.jpg" alt="youtube" width="15"
+                                                height="15" style="color: #ff6600; padding: 0 4px" />
+                                        </a>
+                                        <!-- linkedin -->
+                                        <a href="https://www.linkedin.com/company/sliitmozilla/">
+                                            <img src="https://i.ibb.co/yFhdBXdr/linkedin.jpg" alt="linkedin" width="15"
+                                                height="15" style="color: #ff6600; padding: 0 4px" />
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!-- End Body -->
+
+    <!-- Footer -->
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f5f5f5">
+        <tr>
+            <td align="center" style="
+            padding: 40px;
+            background-color: #f0f0f0;
+            font-size: 12px;
+            color: #777777;
+          ">
+                <p>
+                    &copy; 2025
+                    <a href="https://www.sliitmozilla.org/" target="_blank"
+                        style="color: #777777; text-decoration: underline">Mozilla-Campus-Club-of-SLIIT</a>. All rights
+                    reserved.
+                </p>
+                <p style="margin: 5px 0 0 0">
+                    <a href="{{ unsubscribe_link }}" target="_blank" style="
+                color: #ff6600;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                text-decoration: underline;
+              ">
+                        Unsubscribe
+                    </a>
+                </p>
+            </td>
+        </tr>
+    </table>
+    <!-- End Footer -->
+</body>
+
+</html>
